@@ -34,16 +34,21 @@ Determine whether a vendor-hosted financial application handling sensitive PII m
 - Finding severity rating
 - Business-ready risk communication
 
-<!--
-Uncomment after adding sanitized files to /docs:
+
 
 ## Deliverables
 
-See [`/docs`](docs/) for sanitized samples from this project.
--->
+**Risk Assessment Report**
 
 
+<img width="794" height="912" alt="Risk assess 1" src="https://github.com/user-attachments/assets/2694b65e-2302-4922-97c8-4d58648f55f9" />
 
----
+<img width="796" height="882" alt="Risk assess 2" src="https://github.com/user-attachments/assets/2e0c1ff2-f32e-4c64-affa-ecdaefe3c4d4" />
+
+<img width="796" height="914" alt="Risk assess 3" src="https://github.com/user-attachments/assets/4c5e0beb-9342-409e-9f77-946f018ff4a0" />
+
+<img width="798" height="904" alt="Risk assess 4" src="https://github.com/user-attachments/assets/f8b0a99a-5b10-43f9-8a54-af677e75ec02" />
+
+
 
 *All materials are sanitized and contain no confidential or client data.*
