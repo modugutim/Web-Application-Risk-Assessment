@@ -1,48 +1,34 @@
 # Vendor Web Application Risk Assessment
 
-> Third-party and application risk: security assessment of a vendor-hosted financial application handling PII.
+ **Risk Management (Designing and implementing a Risk management Strategy)**
+ 
+**Risk Assessment**
+ 
+**Threat-based Risk**
+ 
+**Threat Modeling**
 
-![Third-party and application risk](https://img.shields.io/badge/Focus-Third--party%20and%20application%20risk-0f766e) ![NIST SP 800-63B](https://img.shields.io/badge/Framework-NIST%20SP%20800--63B-2b6cb0)
+**OWAPS TOP 10**
 
-| | |
-| --- | --- |
-| **Focus area** | Third-party and application risk |
-| **Frameworks and standards** | NIST SP 800-63B |
+**MITRE ATT&CK Framework**
 
-## Objective
+**CIS Framework**
 
-Determine whether a vendor-hosted financial application handling sensitive PII met an acceptable security standard, and define what the vendor had to fix before the organization could rely on it.
+**Risk management** is the process of identifying, evaluating, and treating potential risks, with the goal of reducing the threats to an organization's digital assets. It's an ongoing process that evolves as new threats emerge and existing threats change.
+The steps of risk management typically include:: 
+- Identifing the assets that need protection, determining what threats could impact those assets, and recognize the vulnerabilities that could enable those threats.
+- Quantifying and evaluating the identified risks. This could involve determining the likelihood of a threat exploiting a vulnerability, as well as the potential impact on the organization.
+- Comparing the analyzed risks against risk criteria that the organization has established. Decide which risks need treatment based on this comparison.
+- Deciding how to address each high-priority risk. Common responses include accepting the risk, mitigating it (implementing controls to reduce its likelihood or impact), transferring it (e.g., through insurance), or avoiding it (e.g., by not engaging in an activity that causes the risk).
+- Regularly monitoring and reviewing the risk environment for changes that may affect the analysis and treatment of each risk. This also involves reviewing the effectiveness of the risk treatment measures.
 
-## Execution
+**Risk assessment** is a part of the risk management process. It involves identifying the risks to an organization's information assets, and then determining the likelihood and potential impact of those risks. It's the combination of these factors—likelihood and impact—that determines the overall risk.
+Risk assessment typically involves these steps: 
+- Document the information assets that could be impacted by a cybersecurity event. These could be hardware, software, data, networks, information systems, etc.
+- Identify potential threats to each asset. Threats could come from many sources, such as hackers, malicious insiders, natural disasters, or unintentional errors from employees.
+- Identify the weaknesses that could be exploited by each threat. This could involve reviewing system and application configurations, patch levels, use of security controls, etc.
+- For each combination of asset, threat, and vulnerability, estimate the likelihood that the threat will exploit the vulnerability and estimate the potential impact. This helps determine the level of risk.
+- Prioritize the risks based on their level. This often involves a combination of qualitative and quantitative methods.
+  
+Risk management and risk assessment together form a cyclical process. The risk assessment informs the risk management decisions, and the outcomes of risk management activities feed back into future risk assessments. This ongoing process helps organizations keep up with changes in their risk environment and improve their security posture over time.
 
-- I assessed the application's data handling, transport security, credential storage and session management against NIST SP 800-63B.
-- I identified high-risk findings: unencrypted traffic and outdated cryptography for credential protection.
-- I rated each finding by severity and by the sensitivity of the PII exposed.
-- I specified remediation: enforce TLS, move password storage to Argon2id or bcrypt, vault credentials and harden sessions.
-- I translated technical findings into risk statements a business owner could act on.
-
-## Business outcomes
-
-- Produced findings with remediation requirements the vendor could be held to contractually.
-- Delivered a clear vendor decision to the business owner, with mandatory fixes tied to contract terms so sensitive PII would not be entrusted to a vendor that failed baseline encryption and credential-protection standards.
-
-## Skills demonstrated
-
-- Application and vendor risk assessment
-- Cryptography and credential-storage review
-- Finding severity rating
-- Business-ready risk communication
-
-<!--
-Uncomment after adding sanitized files to /docs:
-
-## Deliverables
-
-See [`/docs`](docs/) for sanitized samples from this project.
--->
-
-
-
----
-
-*All materials are sanitized and contain no confidential or client data.*
